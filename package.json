@@ -1,0 +1,24 @@
+{
+  "name": "template_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "buildcss": "tailwindcss build tailwind/prototype.css -o style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JXDaBoi/template_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JXDaBoi/template_1/issues"
+  },
+  "homepage": "https://github.com/JXDaBoi/template_1#readme"
+}
