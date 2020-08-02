@@ -36,189 +36,205 @@
 
     <!-- Object on Rail -->
     <div
-      class="fixed w-1/6 z-10 justify-center"
-      style="top: 10rem; left: 50%; transform: translateX(-50%);"
+      class="invisible md:visible fixed z-10 justify-center"
+      style="top: 10rem; left: 50%; transform: translateX(-50%); width: 12.5%;"
     >
-      <img src="../pic/earth.gif" alt="" />
+      <img src="../pic/earth.gif" alt="Example" />
     </div>
 
     <!-- Grids -->
     <div
-      class="grid grid-cols-3 grid-rows-2 relative pt-10"
-      style="height: auto;"
+      class="flex flex-col md:grid grid-rows-2 relative pt-10"
+      style="height: auto; grid-template-columns: 1fr 20% 1fr;"
     >
       <!-- Rail -->
-      <div class="flex justify-center col-span-1 row-span-2">
+      <div class="hidden md:flex justify-center col-span-1 row-span-2 h-auto">
         <img
-          src="../pic/rail.jpg"
-          class="bg-contain"
-          style="width: 95%;"
+          src="../pic/choo.png"
+          class=""
+          style="width: 75%;"
           alt="Just a rail"
         />
       </div>
 
       <!-- Top Left -->
       <div
-        class="overflow-auto flex flex-col border-dotted border-2 border-brown-7 col-span-1 row-span-2 col-start-1 col-end-2 row-start-1 row-end-2"
+        class="col-span-1 row-span-2 col-start-1 col-end-2 row-start-1 row-end-2"
       >
-        <h1 class="text-center">Spring</h1>
-        <h2>It is just Spring</h2>
-        <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi,
-          reprehenderit libero nobis pariatur quod corrupti dolores culpa
-          doloremque et quo a adipisci id officia mollitia sapiente quas
-          aspernatur perferendis? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ab a harum, laborum veritatis minus odit nobis
-          pariatur fugiat saepe excepturi animi ratione quidem. Blanditiis
-          animi, magni vitae delectus sapiente culpa! Lorem ipsum, dolor sit
-          amet consectetur adipisicing elit. Corporis, ullam neque? Id ea
-          doloremque doloribus, repellat, ex deleniti corporis vel, ipsum
-          reprehenderit dolor libero placeat accusantium quaerat in? Quod,
-          suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Officiis, adipisci est dolor, ipsa eum ipsam voluptatibus incidunt
-          aliquam, obcaecati id unde nihil commodi fuga nisi perferendis! Nam
-          expedita commodi repellat. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Earum id vel hic magni! Voluptatum consequuntur
-          nesciunt placeat qui earum nemo sit facilis, quam similique, ab cumque
-          accusantium recusandae, quos corrupti. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Exercitationem consequatur odit
-          voluptatibus esse obcaecati recusandae reprehenderit possimus. Ut
-          harum velit, praesentium, voluptates quasi aperiam, dolor ducimus
-          omnis quibusdam amet tempore? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Debitis odit voluptatem dolore quidem culpa facere
-          laborum laudantium aut cum error! Maxime consequuntur ut deleniti
-          assumenda culpa temporibus, maiores praesentium eveniet? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. In tempora alias magnam
-          nulla, incidunt nisi quae! Velit atque odio inventore repudiandae
-          debitis nostrum voluptas dignissimos et nisi architecto, dolore
-          voluptatem. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Quisquam nesciunt sit dolor, soluta et nulla architecto repellendus?
-          Id atque sed eius debitis neque. Corporis, quidem et ratione fugiat
-          laudantium autem.
-        </h2>
+        <h1 class="sticky text-center bg-pink-200" style="top: 40px;">
+          Spring
+        </h1>
+        <div class="p-3 text-justify">
+          <h2>It is just Spring</h2>
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi,
+            reprehenderit libero nobis pariatur quod corrupti dolores culpa
+            doloremque et quo a adipisci id officia mollitia sapiente quas
+            aspernatur perferendis? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ab a harum, laborum veritatis minus odit nobis
+            pariatur fugiat saepe excepturi animi ratione quidem. Blanditiis
+            animi, magni vitae delectus sapiente culpa! Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Corporis, ullam neque? Id ea
+            doloremque doloribus, repellat, ex deleniti corporis vel, ipsum
+            reprehenderit dolor libero placeat accusantium quaerat in? Quod,
+            suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Officiis, adipisci est dolor, ipsa eum ipsam voluptatibus incidunt
+            aliquam, obcaecati id unde nihil commodi fuga nisi perferendis! Nam
+            expedita commodi repellat. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Earum id vel hic magni! Voluptatum consequuntur
+            nesciunt placeat qui earum nemo sit facilis, quam similique, ab
+            cumque accusantium recusandae, quos corrupti. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Exercitationem consequatur odit
+            voluptatibus esse obcaecati recusandae reprehenderit possimus. Ut
+            harum velit, praesentium, voluptates quasi aperiam, dolor ducimus
+            omnis quibusdam amet tempore? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Debitis odit voluptatem dolore quidem culpa facere
+            laborum laudantium aut cum error! Maxime consequuntur ut deleniti
+            assumenda culpa temporibus, maiores praesentium eveniet? Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. In tempora alias
+            magnam nulla, incidunt nisi quae! Velit atque odio inventore
+            repudiandae debitis nostrum voluptas dignissimos et nisi architecto,
+            dolore voluptatem. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Quisquam nesciunt sit dolor, soluta et nulla
+            architecto repellendus? Id atque sed eius debitis neque. Corporis,
+            quidem et ratione fugiat laudantium autem.
+          </h2>
+        </div>
       </div>
 
       <!-- Top Right -->
       <div
         class="border-dotted border-2 border-brown-7 col-span-1 row-span-2 col-start-3 col-end-4 row-start-1 row-end-2"
       >
-        <h1 class="text-center">Autumn</h1>
-        <h2>It is just Autumn</h2>
-        <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi,
-          reprehenderit libero nobis pariatur quod corrupti dolores culpa
-          doloremque et quo a adipisci id officia mollitia sapiente quas
-          aspernatur perferendis? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ab a harum, laborum veritatis minus odit nobis
-          pariatur fugiat saepe excepturi animi ratione quidem. Blanditiis
-          animi, magni vitae delectus sapiente culpa! Lorem ipsum, dolor sit
-          amet consectetur adipisicing elit. Corporis, ullam neque? Id ea
-          doloremque doloribus, repellat, ex deleniti corporis vel, ipsum
-          reprehenderit dolor libero placeat accusantium quaerat in? Quod,
-          suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Officiis, adipisci est dolor, ipsa eum ipsam voluptatibus incidunt
-          aliquam, obcaecati id unde nihil commodi fuga nisi perferendis! Nam
-          expedita commodi repellat. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Earum id vel hic magni! Voluptatum consequuntur
-          nesciunt placeat qui earum nemo sit facilis, quam similique, ab cumque
-          accusantium recusandae, quos corrupti. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Exercitationem consequatur odit
-          voluptatibus esse obcaecati recusandae reprehenderit possimus. Ut
-          harum velit, praesentium, voluptates quasi aperiam, dolor ducimus
-          omnis quibusdam amet tempore? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Debitis odit voluptatem dolore quidem culpa facere
-          laborum laudantium aut cum error! Maxime consequuntur ut deleniti
-          assumenda culpa temporibus, maiores praesentium eveniet? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. In tempora alias magnam
-          nulla, incidunt nisi quae! Velit atque odio inventore repudiandae
-          debitis nostrum voluptas dignissimos et nisi architecto, dolore
-          voluptatem. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Quisquam nesciunt sit dolor, soluta et nulla architecto repellendus?
-          Id atque sed eius debitis neque. Corporis, quidem et ratione fugiat
-          laudantium autem.
-        </h2>
+        <h1 class="sticky text-center bg-custom-1" style="top: 40px;">
+          Autumn
+        </h1>
+        <div class="p-3 text-justify">
+          <h2>It is just Autumn</h2>
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi,
+            reprehenderit libero nobis pariatur quod corrupti dolores culpa
+            doloremque et quo a adipisci id officia mollitia sapiente quas
+            aspernatur perferendis? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ab a harum, laborum veritatis minus odit nobis
+            pariatur fugiat saepe excepturi animi ratione quidem. Blanditiis
+            animi, magni vitae delectus sapiente culpa! Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Corporis, ullam neque? Id ea
+            doloremque doloribus, repellat, ex deleniti corporis vel, ipsum
+            reprehenderit dolor libero placeat accusantium quaerat in? Quod,
+            suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Officiis, adipisci est dolor, ipsa eum ipsam voluptatibus incidunt
+            aliquam, obcaecati id unde nihil commodi fuga nisi perferendis! Nam
+            expedita commodi repellat. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Earum id vel hic magni! Voluptatum consequuntur
+            nesciunt placeat qui earum nemo sit facilis, quam similique, ab
+            cumque accusantium recusandae, quos corrupti. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Exercitationem consequatur odit
+            voluptatibus esse obcaecati recusandae reprehenderit possimus. Ut
+            harum velit, praesentium, voluptates quasi aperiam, dolor ducimus
+            omnis quibusdam amet tempore? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Debitis odit voluptatem dolore quidem culpa facere
+            laborum laudantium aut cum error! Maxime consequuntur ut deleniti
+            assumenda culpa temporibus, maiores praesentium eveniet? Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. In tempora alias
+            magnam nulla, incidunt nisi quae! Velit atque odio inventore
+            repudiandae debitis nostrum voluptas dignissimos et nisi architecto,
+            dolore voluptatem. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Quisquam nesciunt sit dolor, soluta et nulla
+            architecto repellendus? Id atque sed eius debitis neque. Corporis,
+            quidem et ratione fugiat laudantium autem.
+          </h2>
+        </div>
       </div>
 
       <!-- Bottom Left -->
       <div
         class="border-dotted border-2 border-brown-7 col-span-1 row-span-2 col-start-1 col-end-2 row-start-2 row-end-3"
       >
-        <h1 class="text-center">Summer</h1>
-        <h2>It is just Summer</h2>
-        <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi,
-          reprehenderit libero nobis pariatur quod corrupti dolores culpa
-          doloremque et quo a adipisci id officia mollitia sapiente quas
-          aspernatur perferendis? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ab a harum, laborum veritatis minus odit nobis
-          pariatur fugiat saepe excepturi animi ratione quidem. Blanditiis
-          animi, magni vitae delectus sapiente culpa! Lorem ipsum, dolor sit
-          amet consectetur adipisicing elit. Corporis, ullam neque? Id ea
-          doloremque doloribus, repellat, ex deleniti corporis vel, ipsum
-          reprehenderit dolor libero placeat accusantium quaerat in? Quod,
-          suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Officiis, adipisci est dolor, ipsa eum ipsam voluptatibus incidunt
-          aliquam, obcaecati id unde nihil commodi fuga nisi perferendis! Nam
-          expedita commodi repellat. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Earum id vel hic magni! Voluptatum consequuntur
-          nesciunt placeat qui earum nemo sit facilis, quam similique, ab cumque
-          accusantium recusandae, quos corrupti. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Exercitationem consequatur odit
-          voluptatibus esse obcaecati recusandae reprehenderit possimus. Ut
-          harum velit, praesentium, voluptates quasi aperiam, dolor ducimus
-          omnis quibusdam amet tempore? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Debitis odit voluptatem dolore quidem culpa facere
-          laborum laudantium aut cum error! Maxime consequuntur ut deleniti
-          assumenda culpa temporibus, maiores praesentium eveniet? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. In tempora alias magnam
-          nulla, incidunt nisi quae! Velit atque odio inventore repudiandae
-          debitis nostrum voluptas dignissimos et nisi architecto, dolore
-          voluptatem. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Quisquam nesciunt sit dolor, soluta et nulla architecto repellendus?
-          Id atque sed eius debitis neque. Corporis, quidem et ratione fugiat
-          laudantium autem.
-        </h2>
+        <h1 class="sticky text-center bg-yellow-200" style="top: 40px;">
+          Summer
+        </h1>
+        <div class="p-3 text-justify">
+          <h2>It is just Summer</h2>
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi,
+            reprehenderit libero nobis pariatur quod corrupti dolores culpa
+            doloremque et quo a adipisci id officia mollitia sapiente quas
+            aspernatur perferendis? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ab a harum, laborum veritatis minus odit nobis
+            pariatur fugiat saepe excepturi animi ratione quidem. Blanditiis
+            animi, magni vitae delectus sapiente culpa! Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Corporis, ullam neque? Id ea
+            doloremque doloribus, repellat, ex deleniti corporis vel, ipsum
+            reprehenderit dolor libero placeat accusantium quaerat in? Quod,
+            suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Officiis, adipisci est dolor, ipsa eum ipsam voluptatibus incidunt
+            aliquam, obcaecati id unde nihil commodi fuga nisi perferendis! Nam
+            expedita commodi repellat. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Earum id vel hic magni! Voluptatum consequuntur
+            nesciunt placeat qui earum nemo sit facilis, quam similique, ab
+            cumque accusantium recusandae, quos corrupti. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Exercitationem consequatur odit
+            voluptatibus esse obcaecati recusandae reprehenderit possimus. Ut
+            harum velit, praesentium, voluptates quasi aperiam, dolor ducimus
+            omnis quibusdam amet tempore? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Debitis odit voluptatem dolore quidem culpa facere
+            laborum laudantium aut cum error! Maxime consequuntur ut deleniti
+            assumenda culpa temporibus, maiores praesentium eveniet? Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. In tempora alias
+            magnam nulla, incidunt nisi quae! Velit atque odio inventore
+            repudiandae debitis nostrum voluptas dignissimos et nisi architecto,
+            dolore voluptatem. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Quisquam nesciunt sit dolor, soluta et nulla
+            architecto repellendus? Id atque sed eius debitis neque. Corporis,
+            quidem et ratione fugiat laudantium autem.
+          </h2>
+        </div>
       </div>
 
       <!-- Bottom Right -->
       <div
         class="border-dotted border-2 border-brown-7 col-span-1 row-span-2 col-start-3 col-end-4 row-start-2 row-end-3"
       >
-        <h1 class="text-center">Winter</h1>
-        <h2>It is just Winter</h2>
-        <h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi,
-          reprehenderit libero nobis pariatur quod corrupti dolores culpa
-          doloremque et quo a adipisci id officia mollitia sapiente quas
-          aspernatur perferendis? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ab a harum, laborum veritatis minus odit nobis
-          pariatur fugiat saepe excepturi animi ratione quidem. Blanditiis
-          animi, magni vitae delectus sapiente culpa! Lorem ipsum, dolor sit
-          amet consectetur adipisicing elit. Corporis, ullam neque? Id ea
-          doloremque doloribus, repellat, ex deleniti corporis vel, ipsum
-          reprehenderit dolor libero placeat accusantium quaerat in? Quod,
-          suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Officiis, adipisci est dolor, ipsa eum ipsam voluptatibus incidunt
-          aliquam, obcaecati id unde nihil commodi fuga nisi perferendis! Nam
-          expedita commodi repellat. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Earum id vel hic magni! Voluptatum consequuntur
-          nesciunt placeat qui earum nemo sit facilis, quam similique, ab cumque
-          accusantium recusandae, quos corrupti. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Exercitationem consequatur odit
-          voluptatibus esse obcaecati recusandae reprehenderit possimus. Ut
-          harum velit, praesentium, voluptates quasi aperiam, dolor ducimus
-          omnis quibusdam amet tempore? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Debitis odit voluptatem dolore quidem culpa facere
-          laborum laudantium aut cum error! Maxime consequuntur ut deleniti
-          assumenda culpa temporibus, maiores praesentium eveniet? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. In tempora alias magnam
-          nulla, incidunt nisi quae! Velit atque odio inventore repudiandae
-          debitis nostrum voluptas dignissimos et nisi architecto, dolore
-          voluptatem. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Quisquam nesciunt sit dolor, soluta et nulla architecto repellendus?
-          Id atque sed eius debitis neque. Corporis, quidem et ratione fugiat
-          laudantium autem.
-        </h2>
+        <h1 class="sticky text-center bg-indigo-200" style="top: 40px;">
+          Winter
+        </h1>
+        <div class="p-3 text-justify">
+          <h2>It is just Winter</h2>
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At modi,
+            reprehenderit libero nobis pariatur quod corrupti dolores culpa
+            doloremque et quo a adipisci id officia mollitia sapiente quas
+            aspernatur perferendis? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ab a harum, laborum veritatis minus odit nobis
+            pariatur fugiat saepe excepturi animi ratione quidem. Blanditiis
+            animi, magni vitae delectus sapiente culpa! Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Corporis, ullam neque? Id ea
+            doloremque doloribus, repellat, ex deleniti corporis vel, ipsum
+            reprehenderit dolor libero placeat accusantium quaerat in? Quod,
+            suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Officiis, adipisci est dolor, ipsa eum ipsam voluptatibus incidunt
+            aliquam, obcaecati id unde nihil commodi fuga nisi perferendis! Nam
+            expedita commodi repellat. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Earum id vel hic magni! Voluptatum consequuntur
+            nesciunt placeat qui earum nemo sit facilis, quam similique, ab
+            cumque accusantium recusandae, quos corrupti. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Exercitationem consequatur odit
+            voluptatibus esse obcaecati recusandae reprehenderit possimus. Ut
+            harum velit, praesentium, voluptates quasi aperiam, dolor ducimus
+            omnis quibusdam amet tempore? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Debitis odit voluptatem dolore quidem culpa facere
+            laborum laudantium aut cum error! Maxime consequuntur ut deleniti
+            assumenda culpa temporibus, maiores praesentium eveniet? Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. In tempora alias
+            magnam nulla, incidunt nisi quae! Velit atque odio inventore
+            repudiandae debitis nostrum voluptas dignissimos et nisi architecto,
+            dolore voluptatem. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Quisquam nesciunt sit dolor, soluta et nulla
+            architecto repellendus? Id atque sed eius debitis neque. Corporis,
+            quidem et ratione fugiat laudantium autem.
+          </h2>
+        </div>
       </div>
     </div>
   </body>

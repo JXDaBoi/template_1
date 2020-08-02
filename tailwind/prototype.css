@@ -5,3 +5,10 @@
 .primary-color {
   @apply bg-brown-11 text-brown-3;
 }
+
+.lg-layout {
+  @apply grid grid-cols-3 grid-rows-2 relative pt-10;
+}
+
+.sm-layout {
+}
